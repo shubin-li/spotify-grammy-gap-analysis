@@ -1,6 +1,7 @@
-# spotify-grammy-gap-analysis-CSC1143
+# Spotify–Grammy Gap Analysis
 
-Spotify listener trends vs. Grammy Award recognition analysis using data visualisation techniques on Spotify & Grammy datasets. CSC1143 – Data Management & Visualisation, DCU, Autumn 2025.
+Analyzing the divergence between Spotify streaming popularity and Grammy Award outcomes
+(2000–2023) using Tableau and Power BI visualizations.
 
 ## Project Overview
 
@@ -19,8 +20,10 @@ This project investigates whether Spotify listeners' music preferences have conv
 
 - **Data Cleaning:** Standardised artist names and track titles (lowercasing, punctuation removal, handling variants like `feat.` vs `featuring`)
 - **Dataset Integration:** Matched songs across both datasets using track title + artist name string matching
-- **Visualisation:** Interactive histogram built in Tableau showing Spotify popularity distribution of Grammy-nominated songs filtered by year (2000–2023)
-
+- **Visualisation:** Built analytical charts in Tableau (popularity distribution histogram
+  with year filter) and Power BI (audio feature radar chart comparing Grammy vs. Spotify
+  cohorts) to communicate findings through single-chart storytelling
+  
 ## Key Finding
 
 Grammy-winning songs have trended towards higher Spotify popularity scores over the 2000–2023 period, suggesting that public listening preferences and Grammy recognition have become increasingly aligned.
@@ -31,7 +34,10 @@ Python · Pandas · Matplotlib · Seaborn · Tableau · Power BI · Jupyter Note
 
 ## Team
 
-| Member | Contributions |
-|---|---|
-| Ananya | Final data pipeline, dataset merging, Tableau histogram, Power BI radar chart |
-| Shubin Li | Exploratory analysis, valence/genre/category visualisations, dataset grouping strategy |
+
+| Member    | Contributions                                                                                                  |
+| --------- | -------------------------------------------------------------------------------------------------------------- |
+| Shubin Li | Exploratory analysis, data cleaning & matching logic, visualisation prototyping (Matplotlib), Tableau & Power BI chart design           |
+| Ananya    | Data pipeline, dataset merging, Tableau & Power BI implementation                                              |
+
+Dublin City University, 2025
